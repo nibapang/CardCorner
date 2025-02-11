@@ -6,15 +6,40 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import Adjust
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, AdjustDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        ApplicationDelegate.shared.application(
+                    application,
+                    didFinishLaunchingWithOptions: launchOptions
+                )
+        
+        let environment = ADJEnvironmentProduction
+        let myAdjustConfig = ADJConfig(appToken: "p32kju22sw74", environment: environment)
+        myAdjustConfig?.delegate = self
+        myAdjustConfig?.logLevel = ADJLogLevelVerbose
+        Adjust.appDidLaunch(myAdjustConfig)
         return true
     }
 
+    func adjustAttributionChanged(_ attribution: ADJAttribution?) {
+        print("adjustAttributionChanged\(Adjust.adid() ?? "")")
+    }
+    
+    func adjustEventTrackingSucceeded(_ eventSuccessResponseData: ADJEventSuccess?) {
+        print("adjustEventTrackingSucceeded")
+    }
+    
+    func adjustEventTrackingFailed(_ eventFailureResponseData: ADJEventFailure?) {
+        print("adjustEventTrackingFailed")
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

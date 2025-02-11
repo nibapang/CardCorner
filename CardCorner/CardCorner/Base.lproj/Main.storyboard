@@ -370,7 +370,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="back"/>
                                 <connections>
-                                    <action selector="back:" destination="4ky-CY-O32" eventType="touchUpInside" id="rNX-6Y-mjE"/>
+                                    <action selector="btnBack:" destination="4ky-CY-O32" eventType="touchUpInside" id="kJd-ga-FhA"/>
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="hRp-wn-vGM">
@@ -391,6 +391,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8dH-TG-v47"/>
+                    <connections>
+                        <outlet property="backBtn" destination="jOm-vp-wjl" id="0qO-wY-Zig"/>
+                        <outlet property="indicatorView" destination="hRp-wn-vGM" id="T3B-CM-0QL"/>
+                        <outlet property="webView" destination="mQV-bj-mdm" id="QOX-AH-yPc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KgP-o8-ULJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1487,12 +1492,17 @@
                                     <constraint firstItem="fh3-Zl-SlE" firstAttribute="width" secondItem="Yhl-nO-u4i" secondAttribute="width" multiplier="0.75" id="eSc-sp-Ien"/>
                                 </constraints>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-if-BGA">
+                                <rect key="frame" x="274" y="150" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nDi-I3-WPm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="bEn-8I-Yh4" secondAttribute="trailing" id="0Un-ad-ibZ"/>
                             <constraint firstItem="Yhl-nO-u4i" firstAttribute="top" secondItem="LEO-1B-Suu" secondAttribute="top" constant="10" id="6bB-FU-6Pg"/>
+                            <constraint firstItem="CAe-if-BGA" firstAttribute="centerY" secondItem="LEO-1B-Suu" secondAttribute="centerY" id="FRr-hM-cCQ"/>
+                            <constraint firstItem="CAe-if-BGA" firstAttribute="centerX" secondItem="LEO-1B-Suu" secondAttribute="centerX" id="WPD-AF-dhH"/>
                             <constraint firstItem="nDi-I3-WPm" firstAttribute="trailing" secondItem="Yhl-nO-u4i" secondAttribute="trailing" constant="5" id="blu-Zp-ijT"/>
                             <constraint firstItem="bEn-8I-Yh4" firstAttribute="leading" secondItem="LEO-1B-Suu" secondAttribute="leading" id="cLi-Sa-HCf"/>
                             <constraint firstItem="bEn-8I-Yh4" firstAttribute="top" secondItem="LEO-1B-Suu" secondAttribute="top" id="dNP-HC-g30"/>
@@ -1502,6 +1512,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XFO-Ck-KWm"/>
+                    <connections>
+                        <outlet property="activityView" destination="CAe-if-BGA" id="x7G-9h-izR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tRD-Eq-oZp" sceneMemberID="firstResponder"/>
             </objects>
