@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA511B34003B0075EE5D8B92 /* Pods_CardCorner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC0C72D1A7339CFFE6D814 /* Pods_CardCorner.framework */; };
+		FF87D1E42D5B68EC00CCDB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1E32D5B68EC00CCDB0E /* AppDelegate.swift */; };
+		FF87D1E62D5B68EC00CCDB0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1E52D5B68EC00CCDB0E /* SceneDelegate.swift */; };
+		FF87D1E82D5B68EC00CCDB0E /* CardCornerStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1E72D5B68EC00CCDB0E /* CardCornerStartViewController.swift */; };
+		FF87D1EB2D5B68EC00CCDB0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF87D1E92D5B68EC00CCDB0E /* Main.storyboard */; };
+		FF87D1ED2D5B68ED00CCDB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF87D1EC2D5B68ED00CCDB0E /* Assets.xcassets */; };
+		FF87D1F02D5B68ED00CCDB0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF87D1EE2D5B68ED00CCDB0E /* LaunchScreen.storyboard */; };
+		FF87D1F82D5B6B6700CCDB0E /* CardCornerPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1F72D5B6B6700CCDB0E /* CardCornerPrivacyViewController.swift */; };
+		FF87D1FA2D5B6DB900CCDB0E /* CardCornerLuckOfTheDeckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1F92D5B6DB900CCDB0E /* CardCornerLuckOfTheDeckVC.swift */; };
+		FF87D1FC2D5B6DD500CCDB0E /* CardCornerMainLearnAndQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1FB2D5B6DD500CCDB0E /* CardCornerMainLearnAndQuizVC.swift */; };
+		FF87D1FE2D5B6DE700CCDB0E /* CardCornerCardInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1FD2D5B6DE700CCDB0E /* CardCornerCardInfoVC.swift */; };
+		FF87D2002D5B6DFA00CCDB0E /* CardCornerQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1FF2D5B6DFA00CCDB0E /* CardCornerQuizVC.swift */; };
+		FF87D2022D5B6E1000CCDB0E /* CardCornerAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D2012D5B6E1000CCDB0E /* CardCornerAboutViewController.swift */; };
+		FF87D2042D5B6E2100CCDB0E /* CardCornerFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D2032D5B6E2100CCDB0E /* CardCornerFeedbackVC.swift */; };
+		FF87D2062D5B6E4B00CCDB0E /* CardCornerSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D2052D5B6E4B00CCDB0E /* CardCornerSettingViewController.swift */; };
+		FF87D2082D5B6E5E00CCDB0E /* CardStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D2072D5B6E5E00CCDB0E /* CardStruct.swift */; };
+		FF87D20B2D5B6E8200CCDB0E /* EasyFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D20A2D5B6E8200CCDB0E /* EasyFunc.swift */; };
+		FF87D20D2D5B6E9C00CCDB0E /* CardDetailsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D20C2D5B6E9C00CCDB0E /* CardDetailsStruct.swift */; };
+		FF87D2102D5B6ED700CCDB0E /* UIView+e.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D20F2D5B6ED700CCDB0E /* UIView+e.swift */; };
+		FF87D2122D5B6EEC00CCDB0E /* UIStackView+e.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D2112D5B6EEC00CCDB0E /* UIStackView+e.swift */; };
+		FF87D2142D5B6F9800CCDB0E /* CardCornerChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D2132D5B6F9800CCDB0E /* CardCornerChooseViewController.swift */; };
+		FF87D2182D5B737700CCDB0E /* UIViewController+e.m in Sources */ = {isa = PBXBuildFile; fileRef = FF87D2172D5B737700CCDB0E /* UIViewController+e.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0321A3C8B3F08DE66CBFFBF0 /* Pods-CardCorner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardCorner.release.xcconfig"; path = "Target Support Files/Pods-CardCorner/Pods-CardCorner.release.xcconfig"; sourceTree = "<group>"; };
+		C6FC0C72D1A7339CFFE6D814 /* Pods_CardCorner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardCorner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5E4EADBD995A06B20C2DA1 /* Pods-CardCorner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardCorner.debug.xcconfig"; path = "Target Support Files/Pods-CardCorner/Pods-CardCorner.debug.xcconfig"; sourceTree = "<group>"; };
+		FF87D1E02D5B68EC00CCDB0E /* CardCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF87D1E32D5B68EC00CCDB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF87D1E52D5B68EC00CCDB0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF87D1E72D5B68EC00CCDB0E /* CardCornerStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerStartViewController.swift; sourceTree = "<group>"; };
+		FF87D1EA2D5B68EC00CCDB0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF87D1EC2D5B68ED00CCDB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF87D1EF2D5B68ED00CCDB0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF87D1F12D5B68ED00CCDB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF87D1F72D5B6B6700CCDB0E /* CardCornerPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerPrivacyViewController.swift; sourceTree = "<group>"; };
+		FF87D1F92D5B6DB900CCDB0E /* CardCornerLuckOfTheDeckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerLuckOfTheDeckVC.swift; sourceTree = "<group>"; };
+		FF87D1FB2D5B6DD500CCDB0E /* CardCornerMainLearnAndQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerMainLearnAndQuizVC.swift; sourceTree = "<group>"; };
+		FF87D1FD2D5B6DE700CCDB0E /* CardCornerCardInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerCardInfoVC.swift; sourceTree = "<group>"; };
+		FF87D1FF2D5B6DFA00CCDB0E /* CardCornerQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerQuizVC.swift; sourceTree = "<group>"; };
+		FF87D2012D5B6E1000CCDB0E /* CardCornerAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerAboutViewController.swift; sourceTree = "<group>"; };
+		FF87D2032D5B6E2100CCDB0E /* CardCornerFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerFeedbackVC.swift; sourceTree = "<group>"; };
+		FF87D2052D5B6E4B00CCDB0E /* CardCornerSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerSettingViewController.swift; sourceTree = "<group>"; };
+		FF87D2072D5B6E5E00CCDB0E /* CardStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStruct.swift; sourceTree = "<group>"; };
+		FF87D20A2D5B6E8200CCDB0E /* EasyFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyFunc.swift; sourceTree = "<group>"; };
+		FF87D20C2D5B6E9C00CCDB0E /* CardDetailsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsStruct.swift; sourceTree = "<group>"; };
+		FF87D20F2D5B6ED700CCDB0E /* UIView+e.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+e.swift"; sourceTree = "<group>"; };
+		FF87D2112D5B6EEC00CCDB0E /* UIStackView+e.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+e.swift"; sourceTree = "<group>"; };
+		FF87D2132D5B6F9800CCDB0E /* CardCornerChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerChooseViewController.swift; sourceTree = "<group>"; };
+		FF87D2152D5B737700CCDB0E /* CardCorner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardCorner-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF87D2162D5B737700CCDB0E /* UIViewController+e.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+e.h"; sourceTree = "<group>"; };
+		FF87D2172D5B737700CCDB0E /* UIViewController+e.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+e.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF87D1DD2D5B68EC00CCDB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA511B34003B0075EE5D8B92 /* Pods_CardCorner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1563E8666F08F522BBA0002D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6FC0C72D1A7339CFFE6D814 /* Pods_CardCorner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E472460F450CCD892A93015E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE5E4EADBD995A06B20C2DA1 /* Pods-CardCorner.debug.xcconfig */,
+				0321A3C8B3F08DE66CBFFBF0 /* Pods-CardCorner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF87D1D72D5B68EC00CCDB0E = {
+			isa = PBXGroup;
+			children = (
+				FF87D1E22D5B68EC00CCDB0E /* CardCorner */,
+				FF87D1E12D5B68EC00CCDB0E /* Products */,
+				E472460F450CCD892A93015E /* Pods */,
+				1563E8666F08F522BBA0002D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF87D1E12D5B68EC00CCDB0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF87D1E02D5B68EC00CCDB0E /* CardCorner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF87D1E22D5B68EC00CCDB0E /* CardCorner */ = {
+			isa = PBXGroup;
+			children = (
+				FF87D20E2D5B6EC600CCDB0E /* Extension */,
+				FF87D2092D5B6E6E00CCDB0E /* EasyFunc */,
+				FF87D1E32D5B68EC00CCDB0E /* AppDelegate.swift */,
+				FF87D1E52D5B68EC00CCDB0E /* SceneDelegate.swift */,
+				FF87D1E72D5B68EC00CCDB0E /* CardCornerStartViewController.swift */,
+				FF87D1F72D5B6B6700CCDB0E /* CardCornerPrivacyViewController.swift */,
+				FF87D2132D5B6F9800CCDB0E /* CardCornerChooseViewController.swift */,
+				FF87D1F92D5B6DB900CCDB0E /* CardCornerLuckOfTheDeckVC.swift */,
+				FF87D1FB2D5B6DD500CCDB0E /* CardCornerMainLearnAndQuizVC.swift */,
+				FF87D1FD2D5B6DE700CCDB0E /* CardCornerCardInfoVC.swift */,
+				FF87D1FF2D5B6DFA00CCDB0E /* CardCornerQuizVC.swift */,
+				FF87D2012D5B6E1000CCDB0E /* CardCornerAboutViewController.swift */,
+				FF87D2032D5B6E2100CCDB0E /* CardCornerFeedbackVC.swift */,
+				FF87D2052D5B6E4B00CCDB0E /* CardCornerSettingViewController.swift */,
+				FF87D2072D5B6E5E00CCDB0E /* CardStruct.swift */,
+				FF87D20C2D5B6E9C00CCDB0E /* CardDetailsStruct.swift */,
+				FF87D1E92D5B68EC00CCDB0E /* Main.storyboard */,
+				FF87D1EC2D5B68ED00CCDB0E /* Assets.xcassets */,
+				FF87D1EE2D5B68ED00CCDB0E /* LaunchScreen.storyboard */,
+				FF87D1F12D5B68ED00CCDB0E /* Info.plist */,
+			);
+			path = CardCorner;
+			sourceTree = "<group>";
+		};
+		FF87D2092D5B6E6E00CCDB0E /* EasyFunc */ = {
+			isa = PBXGroup;
+			children = (
+				FF87D20A2D5B6E8200CCDB0E /* EasyFunc.swift */,
+			);
+			path = EasyFunc;
+			sourceTree = "<group>";
+		};
+		FF87D20E2D5B6EC600CCDB0E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF87D20F2D5B6ED700CCDB0E /* UIView+e.swift */,
+				FF87D2112D5B6EEC00CCDB0E /* UIStackView+e.swift */,
+				FF87D2162D5B737700CCDB0E /* UIViewController+e.h */,
+				FF87D2172D5B737700CCDB0E /* UIViewController+e.m */,
+				FF87D2152D5B737700CCDB0E /* CardCorner-Bridging-Header.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF87D1DF2D5B68EC00CCDB0E /* CardCorner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF87D1F42D5B68ED00CCDB0E /* Build configuration list for PBXNativeTarget "CardCorner" */;
+			buildPhases = (
+				2CE7673DBCB049582252CC84 /* [CP] Check Pods Manifest.lock */,
+				FF87D1DC2D5B68EC00CCDB0E /* Sources */,
+				FF87D1DD2D5B68EC00CCDB0E /* Frameworks */,
+				FF87D1DE2D5B68EC00CCDB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardCorner;
+			productName = CardCorner;
+			productReference = FF87D1E02D5B68EC00CCDB0E /* CardCorner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF87D1D82D5B68EC00CCDB0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FF87D1DF2D5B68EC00CCDB0E = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = FF87D1DB2D5B68EC00CCDB0E /* Build configuration list for PBXProject "CardCorner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF87D1D72D5B68EC00CCDB0E;
+			productRefGroup = FF87D1E12D5B68EC00CCDB0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF87D1DF2D5B68EC00CCDB0E /* CardCorner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF87D1DE2D5B68EC00CCDB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF87D1F02D5B68ED00CCDB0E /* LaunchScreen.storyboard in Resources */,
+				FF87D1ED2D5B68ED00CCDB0E /* Assets.xcassets in Resources */,
+				FF87D1EB2D5B68EC00CCDB0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CE7673DBCB049582252CC84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardCorner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF87D1DC2D5B68EC00CCDB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF87D20B2D5B6E8200CCDB0E /* EasyFunc.swift in Sources */,
+				FF87D1FA2D5B6DB900CCDB0E /* CardCornerLuckOfTheDeckVC.swift in Sources */,
+				FF87D2062D5B6E4B00CCDB0E /* CardCornerSettingViewController.swift in Sources */,
+				FF87D1FE2D5B6DE700CCDB0E /* CardCornerCardInfoVC.swift in Sources */,
+				FF87D2142D5B6F9800CCDB0E /* CardCornerChooseViewController.swift in Sources */,
+				FF87D2042D5B6E2100CCDB0E /* CardCornerFeedbackVC.swift in Sources */,
+				FF87D20D2D5B6E9C00CCDB0E /* CardDetailsStruct.swift in Sources */,
+				FF87D1F82D5B6B6700CCDB0E /* CardCornerPrivacyViewController.swift in Sources */,
+				FF87D2022D5B6E1000CCDB0E /* CardCornerAboutViewController.swift in Sources */,
+				FF87D2102D5B6ED700CCDB0E /* UIView+e.swift in Sources */,
+				FF87D2182D5B737700CCDB0E /* UIViewController+e.m in Sources */,
+				FF87D1E82D5B68EC00CCDB0E /* CardCornerStartViewController.swift in Sources */,
+				FF87D1FC2D5B6DD500CCDB0E /* CardCornerMainLearnAndQuizVC.swift in Sources */,
+				FF87D1E42D5B68EC00CCDB0E /* AppDelegate.swift in Sources */,
+				FF87D1E62D5B68EC00CCDB0E /* SceneDelegate.swift in Sources */,
+				FF87D2122D5B6EEC00CCDB0E /* UIStackView+e.swift in Sources */,
+				FF87D2082D5B6E5E00CCDB0E /* CardStruct.swift in Sources */,
+				FF87D2002D5B6DFA00CCDB0E /* CardCornerQuizVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF87D1E92D5B68EC00CCDB0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF87D1EA2D5B68EC00CCDB0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF87D1EE2D5B68ED00CCDB0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF87D1EF2D5B68ED00CCDB0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF87D1F22D5B68ED00CCDB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF87D1F32D5B68ED00CCDB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF87D1F52D5B68ED00CCDB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5E4EADBD995A06B20C2DA1 /* Pods-CardCorner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardCorner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Card Corner";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CardCorner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CardCorner/Extension/CardCorner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF87D1F62D5B68ED00CCDB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0321A3C8B3F08DE66CBFFBF0 /* Pods-CardCorner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CardCorner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Card Corner";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CardCorner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CardCorner/Extension/CardCorner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF87D1DB2D5B68EC00CCDB0E /* Build configuration list for PBXProject "CardCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF87D1F22D5B68ED00CCDB0E /* Debug */,
+				FF87D1F32D5B68ED00CCDB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF87D1F42D5B68ED00CCDB0E /* Build configuration list for PBXNativeTarget "CardCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF87D1F52D5B68ED00CCDB0E /* Debug */,
+				FF87D1F62D5B68ED00CCDB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF87D1D82D5B68EC00CCDB0E /* Project object */;
+}
