@@ -401,10 +401,10 @@
             </objects>
             <point key="canvasLocation" x="2419" y="2176"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Card Corner Navigation Controller-->
         <scene sceneID="5n1-9K-XAh">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="VfH-jL-bUU" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="VfH-jL-bUU" customClass="CardCornerNavigationController" customModule="CardCorner" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qko-Wc-QnB">
                         <autoresizingMask key="autoresizingMask"/>

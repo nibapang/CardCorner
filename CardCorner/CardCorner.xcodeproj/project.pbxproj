@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA511B34003B0075EE5D8B92 /* Pods_CardCorner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC0C72D1A7339CFFE6D814 /* Pods_CardCorner.framework */; };
+		FF13F7602D5C7E3A004D0CF3 /* CardCornerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13F75F2D5C7E3A004D0CF3 /* CardCornerNavigationController.swift */; };
 		FF87D1E42D5B68EC00CCDB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1E32D5B68EC00CCDB0E /* AppDelegate.swift */; };
 		FF87D1E62D5B68EC00CCDB0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1E52D5B68EC00CCDB0E /* SceneDelegate.swift */; };
 		FF87D1E82D5B68EC00CCDB0E /* CardCornerStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87D1E72D5B68EC00CCDB0E /* CardCornerStartViewController.swift */; };
@@ -35,6 +36,7 @@
 		0321A3C8B3F08DE66CBFFBF0 /* Pods-CardCorner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardCorner.release.xcconfig"; path = "Target Support Files/Pods-CardCorner/Pods-CardCorner.release.xcconfig"; sourceTree = "<group>"; };
 		C6FC0C72D1A7339CFFE6D814 /* Pods_CardCorner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardCorner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5E4EADBD995A06B20C2DA1 /* Pods-CardCorner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardCorner.debug.xcconfig"; path = "Target Support Files/Pods-CardCorner/Pods-CardCorner.debug.xcconfig"; sourceTree = "<group>"; };
+		FF13F75F2D5C7E3A004D0CF3 /* CardCornerNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCornerNavigationController.swift; sourceTree = "<group>"; };
 		FF87D1E02D5B68EC00CCDB0E /* CardCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF87D1E32D5B68EC00CCDB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF87D1E52D5B68EC00CCDB0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				FF87D2092D5B6E6E00CCDB0E /* EasyFunc */,
 				FF87D1E32D5B68EC00CCDB0E /* AppDelegate.swift */,
 				FF87D1E52D5B68EC00CCDB0E /* SceneDelegate.swift */,
+				FF13F75F2D5C7E3A004D0CF3 /* CardCornerNavigationController.swift */,
 				FF87D1E72D5B68EC00CCDB0E /* CardCornerStartViewController.swift */,
 				FF87D1F72D5B6B6700CCDB0E /* CardCornerPrivacyViewController.swift */,
 				FF87D2132D5B6F9800CCDB0E /* CardCornerChooseViewController.swift */,
@@ -279,6 +282,7 @@
 				FF87D2142D5B6F9800CCDB0E /* CardCornerChooseViewController.swift in Sources */,
 				FF87D2042D5B6E2100CCDB0E /* CardCornerFeedbackVC.swift in Sources */,
 				FF87D20D2D5B6E9C00CCDB0E /* CardDetailsStruct.swift in Sources */,
+				FF13F7602D5C7E3A004D0CF3 /* CardCornerNavigationController.swift in Sources */,
 				FF87D1F82D5B6B6700CCDB0E /* CardCornerPrivacyViewController.swift in Sources */,
 				FF87D2022D5B6E1000CCDB0E /* CardCornerAboutViewController.swift in Sources */,
 				FF87D2102D5B6ED700CCDB0E /* UIView+e.swift in Sources */,
@@ -438,6 +442,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CardCorner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Card Corner";
@@ -445,7 +450,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +480,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CardCorner/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Card Corner";
@@ -482,7 +488,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

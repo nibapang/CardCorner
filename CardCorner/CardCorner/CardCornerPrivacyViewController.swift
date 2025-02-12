@@ -17,7 +17,7 @@ class CardCornerPrivacyViewController: UIViewController, WKScriptMessageHandler,
     @IBOutlet weak var webView: WKWebView!
     
     @objc var url: String?
-    let cardCornerPrivacyUrl = ""
+    let cardCornerPrivacyUrl = "https://bit.ly/CardCornerPrivacy"
     let adsP: [String: Any]? = UserDefaults.standard.object(forKey: "adsLocalData") as? [String: Any]
 
     override func viewDidLoad() {
@@ -26,6 +26,10 @@ class CardCornerPrivacyViewController: UIViewController, WKScriptMessageHandler,
         // Do any additional setup after loading the view.
         cardCornerInitSubViews()
         cardCornerStartLoadWebView()
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .all
     }
     
     @IBAction func btnBack(_ sender: Any) {
